@@ -1,0 +1,6 @@
+In order to run my SHA-1 algorithm you will need to have python installed on your computer. I wrote this algorithm using Python3 so you can run the program using "python3 sha1.py". Once running, you will be prompted to enter a message you want hashed. My program returns the hash I create as well as a hashed value from the Python hashlib library. 
+
+** DO NOT USE THIS ALGORITHM FOR ACTUAL SECURITY IMPLEMENTATION **
+This project was created to explore the functionality of SHA-1 and should not be used for any real life security measures.
+
+If you are curious about the runtime function you can check that out as well. I have commented out the line that runs the tests and kept just the plotting/averaging function. If you want to use my times to plot the data you can do that using the csv files I have included. If you want to play around with it and use different lengths you can adjust the lengths variable and uncomment the trackTime() line. It is a pretty time intensive process so that is why I have included my data for an example. In the future I would like to time more intervals and include more data to plot.
